@@ -1,8 +1,11 @@
 """Автор программы указан по ссылке ниже"""
 """https://habr.com/ru/post/273253/"""
 
-OPERATORS = {'+': (1, lambda x, y: x + y), '-': (1, lambda x, y: x - y),
-             '*': (2, lambda x, y: x * y), '/': (2, lambda x, y: x / y)}
+OPERATORS = {'+': (1, lambda x, y: x + y),
+             '-': (1, lambda x, y: x - y),
+             '*': (2, lambda x, y: x * y),
+             '/': (2, lambda x, y: x / y)
+             }
 
 
 
